@@ -7,7 +7,7 @@ export const TicTacToe = () => {
 
 
   return (
-    <div>
+    <div className="game-wrapper">
       <Board />
     </div>
   )

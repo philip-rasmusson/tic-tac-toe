@@ -56,7 +56,7 @@ export const Board = () => {
   }
 
   return (
-    <div>
+    <>
       <div className="status">{status()}</div>
       <div className="board-row">
         {renderSquare(0)}
@@ -73,6 +73,6 @@ export const Board = () => {
         {renderSquare(7)}
         {renderSquare(8)}
       </div>
-    </div>
+    </>
   )
 }
